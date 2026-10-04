@@ -187,10 +187,9 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:18px 8px}
 </div>
 <footer>Ciburuyan Akuakultur • Kalkulator dapat digunakan offline setelah file HTML dibuka.</footer>
 </div>
-
-<footer>Ciburuyan Akuakultur • Data input tersimpan otomatis di perangkat.</footer>
-</div>
 <script>
+const n=(id)=>parseFloat(document.getElementById(id).value)||0;
+const fmt=(x,d=2)=>Number.isFinite(x)?x.toLocaleString('id-ID',{minimumFractionDigits:0,maximumFractionDigits:d}):'0';
 
 function calcRound(){
  const v=Math.PI*n('rb_d')*n('rb_d')*n('rb_h')/4;
