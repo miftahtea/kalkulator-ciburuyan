@@ -1,0 +1,19 @@
+{
+  "name": "Kalkulator Ciburuyan Akuakultur",
+  "short_name": "Ciburuyan Kalkulator",
+  "description": "Kalkulator kubikasi kolam dan dosis aplikasi Ciburuyan Akuakultur.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f5",
+  "theme_color": "#126b3d",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
